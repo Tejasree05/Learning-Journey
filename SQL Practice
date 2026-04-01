@@ -1,0 +1,14 @@
+CREATE TABLE users (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50),
+  email VARCHAR(100),
+  age INT
+);
+
+-- Insert 5 users
+INSERT INTO users (Customerid,firstname,lastname,email,age) VALUES ('101','John','singh','john@email.com', 28);
+INSERT INTO users (Customerid,firstname,lastname,email,age) VALUES ('102','Sara','Alikhan', 'sara@email.com', 24);
+INSERT INTO users (Customerid,firstname,lastname,email,age) VALUES ('103','Mike','Howard', 'mike@email.com', 32);
+INSERT INTO users (Customerid,firstname,lastname,email,age) VALUES ('104','Anna', 'walter','anna@email.com', 22);
+INSERT INTO users (Customerid,firstname,lastname,email,age) VALUES ('105','Tom','Eega',  'tom@email.com',  30);
+
